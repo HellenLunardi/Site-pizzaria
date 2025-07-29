@@ -75,12 +75,8 @@ html, body {
     text-align: center;
     margin-bottom: 0;
     font-weight: bold;
-    padding: 5px;
+    padding: 20px;
     font-size: 18px;
-}
-
-.alert p {
-    margin-bottom: 0%;
 }
 
 .alert.alert-success {
@@ -88,7 +84,11 @@ html, body {
 }
 
 .alert.alert-warning {
-    border: 2px solid #856404
+  border: 2px solid #856404;
+}
+
+.alert p {
+    margin-bottom: 0%;
 }
 
 /* FOOTER */ 

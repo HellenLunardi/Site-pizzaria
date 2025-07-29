@@ -11,7 +11,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <h2>Monte a pizza como desejar:</h2>
-                    <form action="process/pizzas.php" method="POST" id="pizza-form">
+                    <form action="process/pizza.php" method="POST" id="pizza-form">
                         <div class="form-group">
                             <label for="borda">Borda:</label>
                             <select name="borda" id="borda" class="form-control">
@@ -32,11 +32,22 @@
                         </div>
                         <div class="form-group">
                             <label for="sabores">Sabores: (Máximo 3)</label>
-                            <select multiple name="sabores[]" id="sabores" class="form-control">
+                            <div>
                              <?php foreach($sabores as $sabor): ?>
-                                <option value="<?= $sabor['id']?>"><?= $sabor["nome"] ?></option>
+                                <div class="form-check">
+                                    <input 
+                                        class="form-check-input sbor-checkbox"
+                                        type="checkbox"
+                                        name="sabores[]"
+                                        value="<?= $sabor['id']?>"
+                                        id="sabor<?= $sabor['id']?>"
+                                    >
+                                    <label for="sabor<?= $sabor['id'] ?>" class="form-check-label">
+                                        <?= $sabor["nome"] ?>
+                                    </label>
+                                </div>
                              <?php endforeach ?>  
-                            </select>
+                            </div>
                         </div>
                         <div class="form-group">
                             <input type="submit" class="btn btn-primary" value="Fazer Pedido!">
