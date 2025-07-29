@@ -1,5 +1,6 @@
 <?php
     include_once("templates/header.php");
+    include_once("process/pizza.php");
 ?>
 
     <div id="main-banner">
@@ -9,7 +10,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <h2>Monte a pizza como desejar</h2>
+                    <h2>Monte a pizza como desejar:</h2>
                     <form action="process/pizzas.php" method="POST" id="pizza-form">
                         <div class="form-group">
                             <label for="borda">Borda:</label>

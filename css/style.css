@@ -80,10 +80,16 @@ html, body {
 }
 
 .alert p {
-    margin-top: 10px;
+    margin-bottom: 0%;
 }
 
+.alert.alert-success {
+    border: 2px solid #155724
+}
 
+.alert.alert-warning {
+    border: 2px solid #856404
+}
 
 /* FOOTER */ 
 footer {
