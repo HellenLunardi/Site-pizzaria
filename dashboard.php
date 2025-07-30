@@ -1,7 +1,7 @@
 <?php
-include_once(__DIR__ . "/templates/header.php");
+include_once("templates/header.php");
 ?>
-    <div class="main-container">
+    <div id="main-container">
         <div class="container">
             <div class="row">
                 <div class="col-md-12">

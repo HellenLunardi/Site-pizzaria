@@ -80,7 +80,7 @@ html, body {
 }
 
 .alert.alert-success {
-    border: 2px solid #155724
+    border: 2px solid #155724;
 }
 
 .alert.alert-warning {
@@ -89,6 +89,12 @@ html, body {
 
 .alert p {
     margin-bottom: 0%;
+}
+
+/* DASHBOARD */
+.delete-btn, .update-btn {
+    border: none;
+    background-color: transparent;
 }
 
 /* FOOTER */ 
