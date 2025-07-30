@@ -41,7 +41,7 @@ html, body {
 }
 
 #main-container {
-    margin-bottom: 100px;
+    margin-bottom: 200px;
     padding: 50px 0;
     text-align: center;
     min-height: 50%;
@@ -88,7 +88,7 @@ html, body {
 }
 
 .alert p {
-    margin-bottom: 0%;
+    margin-bottom: 0;
 }
 
 /* DASHBOARD */
@@ -123,7 +123,7 @@ html, body {
     width: 65%;
 }
 
-.table ul {
+.table li {
     text-align: left;
 }
 
